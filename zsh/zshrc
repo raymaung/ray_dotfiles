@@ -45,6 +45,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
 # Customize to your needs...
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin
 
